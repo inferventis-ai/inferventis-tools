@@ -78,9 +78,9 @@ All manifests are written to TDQS A standard (≥ 4.0/5.0) for reliable agent to
 
 **API key (developer/Stripe billing):**
 ```
-x-api-key: your_key_here
+x-api-key: YOUR_API_KEY
 ```
-Test key: `key_test_abc123`
+Subscribe for your own key (Stripe metered billing) and send it in the `x-api-key` header on `/mcp`. Usage is on the [dashboard](https://mcp-server-295985738387.europe-west1.run.app/dashboard). Do not publish the key.
 
 **x402 micropayments (autonomous agents, no account needed):**
 Agents pay `$0.001 USDC` on Base per call, verified on-chain. Use endpoint `/mcp-pay`.
