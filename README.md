@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Bankee-ai/inferventis/main/public/logo.png" alt="Inferventis" width="360">
+  <img src="https://raw.githubusercontent.com/inferventis-ai/inferventis/main/public/logo.png" alt="Inferventis" width="360">
 </p>
 
 # Inferventis MCP Server
@@ -78,9 +78,9 @@ All manifests are written to TDQS A standard (≥ 4.0/5.0) for reliable agent to
 
 **API key (developer/Stripe billing):**
 ```
-x-api-key: your_key_here
+x-api-key: YOUR_API_KEY
 ```
-Test key: `key_test_abc123`
+Subscribe for your own key (Stripe metered billing) and send it in the `x-api-key` header on `/mcp`. Contact [inferventis.ai](https://inferventis.ai) for a key. Do not publish it.
 
 **x402 micropayments (autonomous agents, no account needed):**
 Agents pay `$0.001 USDC` on Base per call, verified on-chain. Use endpoint `/mcp-pay`.
@@ -104,7 +104,7 @@ Agents pay `$0.001 USDC` on Base per call, verified on-chain. Use endpoint `/mcp
 
 This is the **public listing repo** for Inferventis. Manifests and config files only — no implementation code.
 
-- **Private platform repo:** `Bankee-ai/inferventis` (Cloud Run, TypeScript, tool implementations)
+- **Private platform repo:** `inferventis-ai/inferventis` (Cloud Run, TypeScript, tool implementations)
 - **Website:** [inferventis.ai](https://inferventis.ai)
-- **Dashboard:** [/dashboard](https://mcp-server-295985738387.europe-west1.run.app/dashboard)
+- **Dashboard:** request a key via [inferventis.ai](https://inferventis.ai)
 - **Developer programme:** [/developers](https://mcp-server-295985738387.europe-west1.run.app/developers) — list your tools, earn 70% of every call
